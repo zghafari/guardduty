@@ -9,7 +9,6 @@ AWS GuardDuty supports multi-accounts via master and member accounts. This repos
 ## Usage
 
 Use the module in your terraform files:
-- Master
 
     module "guardduty-master-module" {
       source = "github.com/zghafari/guardduty/mastermodule"
@@ -18,8 +17,6 @@ Use the module in your terraform files:
       member_account_ids     = ["xxxxxxxxxxxx","xxxxxxxxxxxx"]
     }
     
-- Member
-
     module "guardduty-member-module" {
       source = "github.com/zghafari/guardduty/membermodule"
     }
