@@ -35,9 +35,9 @@ run `terraform init` to download the module.
 
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-### Walk-through
+## Walk-through
 http://aws-cloud.guru/guardduty-multi-account/
 
-### Author
+## Author
 
   [Zubin Ghafari](https://www.linkedin.com/in/zghafari/)
