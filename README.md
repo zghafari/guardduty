@@ -21,7 +21,7 @@ Use the module in your terraform files:
       source = "github.com/zghafari/guardduty/membermodule"
     }
 
-run`terraform init` to download the module.
+run `terraform init` to download the module.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
@@ -29,7 +29,7 @@ run`terraform init` to download the module.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| member_account_emails | Email addresses for member accounts to join master| string | - | yes |
+| member_account_emails | Email addresses for member accounts to join master| list | - | yes |
 | member_account_ids | Account Ids of the member accounts to join master | list | - | yes |
 
 
